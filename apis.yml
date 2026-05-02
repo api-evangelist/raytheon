@@ -1,0 +1,30 @@
+aid: raytheon
+name: Raytheon
+description: >-
+  Raytheon is an American aerospace and defense manufacturer, now operating as
+  a business of RTX Corporation, supplying integrated defense systems,
+  precision weapons, sensors, and command-and-control solutions to government
+  and military customers. No public developer API or machine-readable
+  specification has been documented at this time.
+type: Index
+position: Consuming
+access: 3rd-Party
+url: https://raw.githubusercontent.com/api-evangelist/raytheon/refs/heads/main/apis.yml
+tags:
+  - Aerospace
+  - Defense
+  - Government
+  - Manufacturing
+  - Fortune 500
+created: '2026-04-28'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.rtx.com/raytheon
+  - type: ParentCompany
+    url: https://www.rtx.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
