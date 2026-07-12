@@ -35,6 +35,8 @@ modified: '2026-05-02'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/raytheon-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Raytheon
   - type: LinkedIn
@@ -45,6 +47,8 @@ common:
     url: https://www.rtx.com
   - type: SoftwarePlatform
     url: https://www.rtx.com/raytheon/eagle/capabilities
+  - url: https://www.rtx.com/raytheon/rss-feeds/news
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
