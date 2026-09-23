@@ -1,7 +1,9 @@
 ---
 title: IBM and Raytheon Technologies to Collaborate on Artificial ...
 url: https://newsroom.ibm.com/2021-10-11-IBM-and-Raytheon-Technologies-to-Collaborate-on-Artificial-Intelligence,-Cryptography-and-Quantum-Technologies
-date: '2026-05-25'
+published: '2021-10-11'
+date_basis: url-derived
+harvested: '2026-05-25'
 query: '"Raytheon" press release artificial intelligence'
 position: 5
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: RTX's Raytheon announces strategic collaboration with ...
 url: https://www.rtx.com/news/news-center/2025/12/04/rtxs-raytheon-announces-strategic-collaboration-with-aws-to-improve-services-for
-date: '2026-05-25'
+published: '2025-12-04'
+date_basis: url-derived
+harvested: '2026-05-25'
 query: '"Raytheon" press release artificial intelligence'
 position: 1
 source: serpapi-google

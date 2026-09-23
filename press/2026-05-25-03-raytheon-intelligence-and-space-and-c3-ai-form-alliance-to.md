@@ -1,7 +1,9 @@
 ---
 title: Raytheon Intelligence & Space and C3.ai Form Alliance to ...
 url: https://c3.ai/raytheon-intelligence-space-and-c3-ai-form-alliance-to-accelerate-military-ai-adoption/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Raytheon" press release artificial intelligence'
 position: 3
 source: serpapi-google
