@@ -1,4 +1,5 @@
 aid: raytheon
+
 deliveryModel:
   model: unknown
   open_source: false
@@ -10,6 +11,7 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -21,8 +23,11 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raytheon.png
+
 name: Raytheon
+
 description: >-
   Raytheon is an American aerospace and defense manufacturer operating as a
   business of RTX Corporation, the world's largest aerospace and defense
@@ -37,10 +42,15 @@ description: >-
   manual development, and product support data. No public developer API or
   machine-readable specification is available at this time; Raytheon's
   software solutions are deployed within government program contracts.
+
 type: Index
+
 position: Consuming
+
 access: 3rd-Party
+
 url: https://raw.githubusercontent.com/api-evangelist/raytheon/refs/heads/main/apis.yml
+
 tags:
   - Aerospace
   - Command and Control
@@ -53,6 +63,7 @@ tags:
   - Missile Defense
   - Radar
   - Sensors
+
 tags_raw:
   - Aerospace
   - Command and Control
@@ -65,27 +76,62 @@ tags_raw:
   - Missile Defense
   - Radar
   - Sensors
+
 created: '2026-04-28'
+
 modified: '2026-05-02'
+
 specificationVersion: '0.23'
-apis: []
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+
 common:
+  - type: Hosts
+    url: hosts/raytheon-hosts.yml
+  - type: Vendors
+    url: vendors/raytheon-vendors.yml
+  - type: Newsroom
+    url: https://www.rtx.com/news
+  - type: Leadership
+    url: https://www.rtx.com/raytheon/who-we-are/leadership
   - type: DomainSecurity
     url: security/raytheon-domain-security.yml
-  - type: GitHubOrganization
-    url: https://github.com/Raytheon
   - type: LinkedIn
     url: https://www.linkedin.com/company/raytheon
   - type: Website
     url: https://www.rtx.com/raytheon
+  - type: PrivacyPolicy
+    url: https://www.rtx.com/privacy
+  - type: TermsOfService
+    url: https://www.rtx.com/terms-of-use
   - type: ParentOrganization
     url: https://www.rtx.com
   - type: SoftwarePlatform
     url: https://www.rtx.com/raytheon/eagle/capabilities
   - url: https://www.rtx.com/raytheon/rss-feeds/news
     type: Blog
-maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+
+apis: []
+
 x-parent: rtx
+
 x-relationship: product
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Raytheon's site on www.rtx.com/raytheon serves only corporate pages (leadership, news, privacy, terms); api.rtx.com does not resolve, no contract, MCP or agent card answered on any RTX host, and the github.com/Raytheon org has zero public repos and no ownership evidence.
+  evidence:
+  - url: https://www.rtx.com/raytheon
+    status: 200
+  - url: https://api.rtx.com/openapi.json
+    status: 0
+  - url: https://www.rtx.com/.well-known/security.txt
+    status: 404
+  checked: '2026-10-20'
+x-enrichment:
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v5
