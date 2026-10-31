@@ -64,51 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Raytheon is an American aerospace and defense manufacturer operating as a business of RTX Corporation, the world's largest aerospace and defense company. Raytheon designs, develops, and produces advanced defense systems including precision weapons, air and missile defense systems, sensors, radar, electronic warfare, command-and-control solutions, and cyber capabilities for the U.S. military and allied governments worldwide.
+Raytheon is an American aerospace and defense manufacturer operating as a business of RTX Corporation, the world's largest aerospace and defense company. Raytheon designs, develops, and produces advanced defense systems including precision weapons, air and missile defense systems, sensors, radar, electronic warfare, command-and-control solutions, and cyber capabilities for the U.S. military and allied governments worldwide. Key products include the Patriot missile defense system, StormBreaker smart weapons, RAIVEN electro-optical/infrared sensor suites, and advanced electronic attack systems. Raytheon also develops world-class logistics software through the EAGLE team supporting production management, technical manual development, and product support data. No public developer API or machine-readable specification is available at this time; Raytheon's software solutions are deployed within government program contracts.
 
-Key programs include the Patriot missile defense system, StormBreaker smart weapons, RAIVEN electro-optical/infrared sensor suites, and advanced electronic attack systems. Raytheon also develops logistics and technical documentation software through the **EAGLE** team, supporting production management, technical manual development, and product support data for defense programs.
+**Areas:** Aerospace · Command and Control · Cybersecurity · Defense · Electronic Warfare · Fortune 500 · Government · Manufacturing · Missile Defense · Radar · Sensors
 
-**No public developer API or machine-readable specification is available at this time.** Raytheon's software solutions are deployed within classified or government program contracts.
+## Raytheon on APIs.io
 
-**URL:** [Visit APIs.json](https://raw.githubusercontent.com/api-evangelist/raytheon/refs/heads/main/apis.yml)
+Everything profiled for Raytheon is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/raytheon/](https://apis.io/providers/raytheon/)** — or go straight to one of the APIs or properties below.
 
-## Scope
+### Published properties
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Tags
+#### Security (1)
 
-Aerospace, Command and Control, Cyber Security, Defense, Electronic Warfare, Fortune 500, Government, Manufacturing, Missile Defense, Radar, Sensors
+Authentication, trust centre, and vulnerability disclosure.
 
-## Timestamps
+- [Raytheon Domain Security](https://apis.io/security/raytheon/raytheon-domain-security/)
 
-- **Created:** 2026-04-28
-- **Modified:** 2026-05-02
+## Where to find this API
 
-## APIs
-
-No public APIs have been documented at this time.
-
-## Key Capabilities
-
-- **Precision Weapons** — StormBreaker, AMRAAM, AIM-9X Sidewinder, Paveway
-- **Missile Defense** — Patriot, SM-3, SM-6, NASAMS
-- **Radar and Sensors** — SPY-6 AESA radar, RAIVEN EO/IR sensor suite, AN/TPY-2 radar
-- **Electronic Warfare** — Next Generation Jammer, AARGM-ER
-- **Command and Control** — C2 software and battle management systems
-- **Cyber Security** — Offensive and defensive cyber capabilities
-- **Logistics Software** — EAGLE platform for defense program support
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.rtx.com/raytheon)
-- [ParentOrganization](https://www.rtx.com)
-- [SoftwarePlatform](https://www.rtx.com/raytheon/eagle/capabilities)
+- [Blog](https://www.rtx.com/raytheon/rss-feeds/news)
+- [Terms of service](https://www.rtx.com/terms-of-use)
+- [Privacy policy](https://www.rtx.com/privacy)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 9.9** — minimal · rubric 0.24.0 · scored 2026-10-20
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 51.8 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/raytheon/](https://apis.io/providers/raytheon/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Raytheon: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/raytheon/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
